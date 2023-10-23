@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TurismoApp</string>
+    <string name="txtusuario">Digite el Usuario</string>
+    <string name="txtclave">Digite la clave\n</string>
+    <string name="btniniciar">Inicio</string>
+    <string name="txtnousuario">No tiene usuario,</string>
+    <string name="txtcrearusuario">Cree uno aquí</string>
+    <string name="txtperdioclave">Perdio la clave,</string>
+    <string name="txtrecuperarclave">recuperala aquí</string>
+    <string name="btnregistrar">Registrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_description_media">sitio turistico</string>
+    <string name="title">Eje cafetero</string>
+    <string name="descripcion">Por supuesto que si visitas Colombia, no puedes dejar de conocer la zona cafetera del país. Entre las montañas de la Cordillera de los Andes encontrarás grandes haciendas campestres donde se cultiva y produce una gran variedad de café, reconocido a nivel mundial. Las regiones de Caldas, Quindío y Risaralda constituyen un triángulo geométrico también conocido como el eje cafetero, donde los turistas pueden experimentar toda la cultura del café colombiano.</string>
+    <string name="localizar">Localizar</string>
+    <string name="favorito">Favoritos</string>
+    <string name="txtsitios">Sitios Turisticos</string>
+    <string name="txtmissitios">Mis Sitios</string>
+    <string name="txtperfil">Mi Perfil</string>
+</resources>

@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "487846150009",
+    "firebase_url": "https://appcloud-5437b.firebaseio.com",
+    "project_id": "appcloud-5437b",
+    "storage_bucket": "appcloud-5437b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487846150009:android:c2e1c23feae7dbf7",
+        "android_client_info": {
+          "package_name": "co.edu.ufps.appcloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487846150009-25bd6qcjdsl08lj0774tqr6i4n2iepap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.ufps.appcloud",
+            "certificate_hash": "9cf168545df091aaf5098fd218c299cca5443284"
+          }
+        },
+        {
+          "client_id": "487846150009-vkosmej0j4kjptfm4asathr1dev8p47u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1A_8mzkQl3fYRjhNmKuMlLbEK6QhSm_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487846150009-vkosmej0j4kjptfm4asathr1dev8p47u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487846150009:android:5d00379d832c4c8afbb9a8",
+        "android_client_info": {
+          "package_name": "co.edu.ufps.sitiosturisticos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487846150009-vkosmej0j4kjptfm4asathr1dev8p47u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1A_8mzkQl3fYRjhNmKuMlLbEK6QhSm_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487846150009-vkosmej0j4kjptfm4asathr1dev8p47u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487846150009:android:215d635b10f0753afbb9a8",
+        "android_client_info": {
+          "package_name": "co.edu.ufps.turismoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487846150009-vkosmej0j4kjptfm4asathr1dev8p47u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1A_8mzkQl3fYRjhNmKuMlLbEK6QhSm_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487846150009-vkosmej0j4kjptfm4asathr1dev8p47u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
