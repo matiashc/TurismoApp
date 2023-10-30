@@ -16,6 +16,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="194dp"
+            android:id="@+id/foto"
             app:srcCompat="@drawable/sitioturistico1"
             android:scaleType="centerCrop"
             android:contentDescription="@string/content_description_media"
@@ -31,12 +32,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/nombre"
                 android:text="@string/title"
                 android:textAppearance="?attr/textAppearanceTitleMedium"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/descripcion"
                 android:layout_marginTop="8dp"
                 android:text="@string/descripcion"
                 android:textAppearance="?attr/textAppearanceBodyMedium"
