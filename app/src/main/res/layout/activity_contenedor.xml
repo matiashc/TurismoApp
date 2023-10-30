@@ -22,6 +22,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabMode="fixed">
@@ -49,7 +50,11 @@
 
     </com.google.android.material.tabs.TabLayout>
 
-    <include layout="@layout/card"/>
-    <include layout="@layout/card"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/contenedorcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.viewpager.widget.ViewPager>
 
 </LinearLayout>

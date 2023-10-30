@@ -44,16 +44,17 @@ class SitioTuristico : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_sitio_turistico, container, false)
         contenedor = view.findViewById(R.id.contenedor)
-        sitioAdapter = SitioAdapter(context,cargarDatos(),R.id.card)
         val linearLayout = LinearLayoutManager(context)
         linearLayout.orientation = LinearLayoutManager.VERTICAL
+        contenedor.layoutManager=linearLayout
+        sitioAdapter = SitioAdapter(context,cargarDatos(),R.id.card)
         contenedor.adapter = sitioAdapter
         return view
     }
 
 
     fun cargarDatos(): ArrayList<Sitio>{
-        val sitios: ArrayList<Sitio> = ArrayList()
+        val sitios: ArrayList<Sitio> = java.util.ArrayList<Sitio>()
         sitios.add(Sitio("XER","SITIO 1","SITIO 1 TURISTICO","https://www.eltiempo.com/files/article_main_1200/uploads/2023/04/10/64347a6b4f9ec.jpeg",0.0,0.0))
         sitios.add(Sitio("XER","SITIO 2","SITIO 2 TURISTICO","https://www.comparaonline.cl/blog-statics/cl/uploads/2016/12/lugares-turisticos-de-colombia.png",0.0,0.0))
         sitios.add(Sitio("XER","SITIO 3","SITIO 3 TURISTICO","https://cdn.inteligenciaviajera.com/wp-content/uploads/2020/04/sitios-turisticos-2.jpg",0.0,0.0))
