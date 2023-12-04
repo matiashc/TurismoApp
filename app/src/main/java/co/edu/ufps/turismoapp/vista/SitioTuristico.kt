@@ -1,5 +1,6 @@
 package co.edu.ufps.turismoapp.vista
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import co.edu.ufps.turismoapp.R
 import co.edu.ufps.turismoapp.contoller.SitioAdapter
 import co.edu.ufps.turismoapp.modelo.Sitio
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
@@ -31,6 +33,7 @@ class SitioTuristico : Fragment() {
     lateinit var contenedor: RecyclerView
     lateinit var sitioAdapter: SitioAdapter
     val TAG: String = "SitioTuristico"
+    lateinit var crearSitio: FloatingActionButton
 
     // TODO: Rename and change types of parameters
     private var param1: String? = null
@@ -51,11 +54,15 @@ class SitioTuristico : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_sitio_turistico, container, false)
         contenedor = view.findViewById(R.id.contenedor)
+        crearSitio = view.findViewById(R.id.crearsitio)
         val linearLayout = LinearLayoutManager(context)
         linearLayout.orientation = LinearLayoutManager.VERTICAL
         contenedor.layoutManager=linearLayout
         sitioAdapter = SitioAdapter(context,cargarDatosFireBase(),R.id.card)
         contenedor.adapter = sitioAdapter
+        crearSitio.setOnClickListener {
+            crearSitio()
+        }
         return view
     }
 
@@ -92,6 +99,12 @@ class SitioTuristico : Fragment() {
             }
         })
         return sitios
+    }
+
+    fun crearSitio(){
+        val intent = Intent(context,CrearSitio::class.java)
+        startActivity(intent)
+
     }
 
     companion object {

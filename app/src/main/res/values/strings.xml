@@ -18,4 +18,9 @@
     <string name="txtsitios">Sitios Turisticos</string>
     <string name="txtmissitios">Mis Sitios</string>
     <string name="txtperfil">Mi Perfil</string>
+    <string name="fab_content_desc">agregar</string>
+    <string name="txtnombretienda">Nombre de la Tienda</string>
+    <string name="txtdescripciontienda">Descripción Tienda</string>
+    <string name="btnlocalizar">Localizar</string>
+    <string name="btnguardar">Guardar</string>
 </resources>
